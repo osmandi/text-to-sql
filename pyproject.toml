@@ -1,0 +1,20 @@
+[project]
+name = "text-to-sql"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Osmandi"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "langchain[openai]>=1.4.1",
+    "langgraph>=1.2.11",
+]
+
+[project.scripts]
+text-to-sql = "text_to_sql:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
