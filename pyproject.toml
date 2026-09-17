@@ -10,6 +10,7 @@ requires-python = ">=3.14"
 dependencies = [
     "langchain[openai]>=1.4.1",
     "langgraph>=1.2.11",
+    "requests>=2.34.2",
 ]
 
 [project.scripts]

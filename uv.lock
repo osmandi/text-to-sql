@@ -738,12 +738,14 @@ source = { editable = "." }
 dependencies = [
     { name = "langchain", extra = ["openai"] },
     { name = "langgraph" },
+    { name = "requests" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "langchain", extras = ["openai"], specifier = ">=1.4.1" },
     { name = "langgraph", specifier = ">=1.2.11" },
+    { name = "requests", specifier = ">=2.34.2" },
 ]
 
 [[package]]
