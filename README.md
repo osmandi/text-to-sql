@@ -6,7 +6,7 @@ Application with LangGraph:
 
 ![](graph.png)
 
-Arrchitecture:
+Architecture:
 ```mermaid
 graph TD
     %% Estilos de colores
